@@ -1,12 +1,12 @@
 import React from 'react';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 import './App.scss';
 
 const App:React.FC = () => {
   return (
     <div className="dapp">
-      <h1>DApp Demo</h1>
-      <p>This is a dapp demo</p>
+      <ConnectButton />
     </div>
   );
 };
