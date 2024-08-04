@@ -21,7 +21,18 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Alias */
+    "paths": {
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@scss/*": ["src/assets/scss/*"],
+      "@images/*": ["src/images/*"],
+      "@views/*": ["src/views/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"],
+    },
   },
   "include": ["src"]
 }
